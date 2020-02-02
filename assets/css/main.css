@@ -9,6 +9,7 @@
   --two_color: #fbfcff;
   --three_color: #87d0d9;
   --four_color: #0b0e2d;
+  --alignment: left;
   
 }
 
@@ -2141,20 +2142,20 @@ p {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: var(--alignment);
+  -webkit-justify-content: var(--alignment);
+  -ms-flex-pack: var(--alignment);
+  justify-content: var(--alignment);
   -webkit-box-align: start;
-  -webkit-align-items: center;
+  -webkit-align-items: var(--alignment);
   -ms-flex-align: start;
   /* align-items: flex-start; */
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  text-align: center;
-  align-items: center;
+  text-align: var(--alignment);
+  align-items: var(--alignment);
 }
 
 .testimonial {
@@ -2170,7 +2171,7 @@ p {
   font-size: 1.6rem;
   line-height: 38px;
   font-family: var(--fontMono);
-  text-align: center;
+  text-align: var(--alignment);
   padding-top: 10%;
 }
 
@@ -2204,14 +2205,11 @@ a {
 }
 
 .title {
-  font-family: var(--fontSans)
-}
-
-.title {
   color: var(--primary_dark);
   font-weight: 700;
   line-height: 1.125;
-  text-align: left;
+  text-align: var(--alignment);
+   font-family: var(--fontSans);
 }
 
 .divider.is-centered {
@@ -2477,12 +2475,6 @@ a {
 
 /*media*/
 @media screen and (min-width:770px) {
-	
-	  .picenter {
-	width:40%;
-	display:grid;
-	justify-self: center;
-}
 
   .navbar,
   .navbar-end,
@@ -2709,7 +2701,7 @@ a {
     font-size: 1.4rem;
     line-height: 33px;
     font-family: var(--fontMono);
-    text-align: center;
+    text-align: var(--alignment);
   }
 
   .projects {
@@ -2768,7 +2760,7 @@ a {
     position: absolute;
     z-index: 2;
     top: auto;
-    /* left: 8%; */
+    left: 8%; /*bullet position mobile*/
     display: inline-flex;
     list-style: none;
     transform: translateX(-50%);
@@ -3064,7 +3056,7 @@ a {
   }
 
   .testimonial-text {
-    text-align: center;
+    text-align: var(--alignment);
   }
 
   .timelinebox {
