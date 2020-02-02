@@ -1054,7 +1054,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
         column-count: 2;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-
+display:grid;
       }
       }
     /* end Gallery */
