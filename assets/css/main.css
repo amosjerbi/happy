@@ -2613,6 +2613,12 @@ a {
     grid-column: 7/12;
   }
 
+  .picenter {
+	width:40%;
+	display:grid;
+	justify-self: center;
+}
+  
   .footersocial {
     display: inline-block;
     grid-column: 10/ span 5;
