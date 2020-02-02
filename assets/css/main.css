@@ -536,6 +536,12 @@ html {
   box-sizing: inherit;
 }
 
+.picenter {
+	width:50%;
+	display:grid;
+	justify-self: center;
+}
+
 img {
   height: auto;
   max-width: 100%
@@ -1786,6 +1792,8 @@ a.navbar-item:hover {
 .sectiontext {
   grid-column: 2/7;
   grid-row: 1;
+  display: grid;
+  align-items: center;
 }
 
 .sectiontext p {
@@ -2133,20 +2141,20 @@ p {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: left;
-  -webkit-justify-content: left;
-  -ms-flex-pack: left;
-  justify-content: left;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-  -webkit-align-items: left;
+  -webkit-align-items: center;
   -ms-flex-align: start;
   /* align-items: flex-start; */
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  text-align: left;
-  align-items: left;
+  text-align: center;
+  align-items: center;
 }
 
 .testimonial {
@@ -2162,7 +2170,7 @@ p {
   font-size: 1.6rem;
   line-height: 38px;
   font-family: var(--fontMono);
-  text-align: left;
+  text-align: center;
   padding-top: 10%;
 }
 
@@ -2695,7 +2703,7 @@ a {
     font-size: 1.4rem;
     line-height: 33px;
     font-family: var(--fontMono);
-    text-align: left;
+    text-align: center;
   }
 
   .projects {
@@ -2754,7 +2762,7 @@ a {
     position: absolute;
     z-index: 2;
     top: auto;
-    left: 8%;
+    /* left: 8%; */
     display: inline-flex;
     list-style: none;
     transform: translateX(-50%);
@@ -2865,7 +2873,8 @@ a {
 
   .sectiontext {
     grid-column: 1;
-    grid-row: 1
+    grid-row: 1;
+    display: grid;
   }
 
   .rightsectionteaser {
@@ -3049,7 +3058,7 @@ a {
   }
 
   .testimonial-text {
-    text-align: left;
+    text-align: center;
   }
 
   .timelinebox {
