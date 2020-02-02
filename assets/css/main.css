@@ -2133,19 +2133,19 @@ p {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
   -webkit-box-align: start;
-  -webkit-align-items: center;
+  -webkit-align-items: left;
   -ms-flex-align: start;
   /* align-items: flex-start; */
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  text-align: center;
+  text-align: left;
   align-items: left;
 }
 
@@ -2162,7 +2162,7 @@ p {
   font-size: 1.6rem;
   line-height: 38px;
   font-family: var(--fontMono);
-  text-align: center;
+  text-align: left;
   padding-top: 10%;
 }
 
