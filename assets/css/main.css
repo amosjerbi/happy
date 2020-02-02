@@ -2477,6 +2477,12 @@ a {
 
 /*media*/
 @media screen and (min-width:770px) {
+	
+	  .picenter {
+	width:40%;
+	display:grid;
+	justify-self: center;
+}
 
   .navbar,
   .navbar-end,
@@ -2612,12 +2618,6 @@ a {
     flex-grow: 1;
     grid-column: 7/12;
   }
-
-  .picenter {
-	width:40%;
-	display:grid;
-	justify-self: center;
-}
   
   .footersocial {
     display: inline-block;
