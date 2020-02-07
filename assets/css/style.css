@@ -1706,9 +1706,9 @@ a.active:after {
   }
 
   .brother {
-    grid-column: 1/12;
+    grid-column: 7/12;
     grid-row: 1;
-    width: 40%;
+    width: 100%;
   }
 
   .leftimg {
