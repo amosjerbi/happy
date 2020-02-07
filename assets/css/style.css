@@ -818,8 +818,8 @@ li .navbar-item:hover:after {
   font-weight: 700;
   letter-spacing: 1px;
   color: var(--primary_dark);
-  width: 30%;
-  padding: 1rem 0 1rem 0;
+  width: 65%;
+  padding: 2rem 0 1rem 2rem;
 }
 
 .brand-name:hover {
@@ -1014,7 +1014,7 @@ ul.global-nav__list a {
   position: absolute;
   z-index: 10;
   right: 1rem;
-  top: 1rem;
+  top: 0.3rem;
   cursor: pointer;
   -webkit-transform: rotateY(0);
   transform: rotateY(0);
@@ -1235,10 +1235,11 @@ li.fade {
    About
  ======================================== */
 .picenter {
-  grid-column: 2/ span 4;
+  grid-column: 1/ span 5;
   grid-row: 1;
   display: grid;
   align-content: center;
+  padding: 0 0 0 3rem;
 }
 
 /* =======================================
@@ -1521,7 +1522,7 @@ a.active:after {
 .footer_logo {
   grid-column: 1;
   grid-row: 1;
-  width: 50%;
+  width: 75%;
 }
 
 .footer_grid {
@@ -1650,6 +1651,16 @@ a.active:after {
     width: 96%;
   }
 
+  .brand-name {
+    font-family: var(--fontSans);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--primary_dark);
+    width: 46%;
+    padding: 1rem 0 1rem 0rem;
+  }
+
   .navbar-end {
     display: none;
   }
@@ -1708,7 +1719,7 @@ a.active:after {
     grid-column: 1/12;
     grid-row: 1;
     justify-self: center;
-    width: 50%;
+    width: 80%;
     padding: 0 0 1rem 0;
   }
 
@@ -1748,7 +1759,7 @@ a.active:after {
     grid-column: 1;
     grid-row: 1;
     /* padding: 0 0 2rem 0; */
-    width: 30%;
+    width: 50%;
     padding: 0 0 0 0.5rem;
   }
 
@@ -1795,8 +1806,8 @@ a.active:after {
     grid-column: 1;
     grid-row: 1;
     /* padding: 0 0 2rem 0; */
-    width: 36%;
-    padding: 0 0 1rem 1rem;
+    width: 76%;
+    padding: 0 0 1rem 0rem;
   }
 
   .footer_links_col1 {
