@@ -1,4 +1,4 @@
-<html lang="en">
+﻿<html lang="en">
 
 <head>
   <!-- Chrome, Firefox OS and Opera -->
@@ -24,7 +24,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
   <!--CSS -->
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/aos.css">
   <link rel="stylesheet" href="assets/css/lightgallery.css">
 </head>
@@ -61,14 +61,15 @@
     left: -0.3rem;
   }
 </style>
+
 <body>
 
   <nav class="navbar is-fixed-top">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="index.html">
+        <a class="brand-name" href="index.html">
           <!--  <img src="assets/images/profile.png"> -->
-          <span class="brand-name"><img src="assets/images/logo_happy.png"></span>
+          <span><img src="assets/images/logo_happy.png"></span>
         </a>
 
         <div class="novile" aria-label="menu" aria-expanded="false">
@@ -78,13 +79,13 @@
             <div class="burger_line"></div>
             <div class="burger_line"></div>
           </div>
-          
+
           <nav class="global-nav">
             <ul class="global-nav__list">
               <li><a href="index.html#about">About</a></li>
-                <li><a href="index.html#gallery">Gallery</a></li>
-                <li><a href="index.html#testimonials">Our Team</a></li>
-                <li><a href="https://www.haaretz.co.il/captain/games/.premium-1.8468007" target="_blank">Haaretz Article</a></li>
+              <li><a href="index.html#gallery">Gallery</a></li>
+              <li><a href="index.html#testimonials">Our Team</a></li>
+              <li><a href="https://www.haaretz.co.il/captain/games/.premium-1.8468007" target="_blank">Haaretz Article</a></li>
 
               <div class="social">
                 <a href="https://www.linkedin.com/in/amosjerbi/" target="_blank" class="novile-items"><i class="fa fa fa-linkedin"></i></a>
@@ -111,11 +112,11 @@
       <div class="navbar-end">
         <div class="navbar-menu">
           <ul class="desktop-nav__list">
-              <li><a href="index.html#about" class="navbar-item">About</a></li>
-                <li><a href="index.html#gallery" class="navbar-item">Gallery</a></li>
-                <li><a href="index.html#testimonials" class="navbar-item">Out Team</a></li>
-                <li><a href="https://www.haaretz.co.il/captain/games/.premium-1.8468007" class="navbar-item" target="_blank">Haaretz Article</a></li>
-              </ul>
+            <li><a href="index.html#about" class="navbar-item">About</a></li>
+            <li><a href="index.html#gallery" class="navbar-item">Gallery</a></li>
+            <li><a href="index.html#testimonials" class="navbar-item">Out Team</a></li>
+            <li><a href="https://www.haaretz.co.il/captain/games/.premium-1.8468007" class="navbar-item" target="_blank">Haaretz Article</a></li>
+          </ul>
           <div class="buttons">
             <a href="https://www.facebook.com/happy.juice.games/" target="_blank" class="button is-talk">
               Facebook
@@ -129,11 +130,11 @@
   <!-- nav -->
   <section class="section is-small" style="background-image: url('assets/images/forest.jpg');background-repeat-y: no-repeat;background-position-y: -50px;background-position-x: 480px;">
     <div class="container">
-      <div class="indexsection">
+      <div class="herosection">
 
         <div class="heroimg"><img src="assets/images/brothers.png"></div>
-        <div class="indexsectiontext" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200" data-aos-easing="ease-out-sine">
-          <h5 class="intro is-uppercase"><img src="https://raw.githubusercontent.com/amosjerbi/happy/master/assets/images/logo.PNG"></h5>
+        <div class="herosectiontext" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200" data-aos-easing="ease-out-sine">
+          <h5 class="intro is-uppercase"><img src="assets/images/logo.PNG"></h5>
           <p class="paragrap">
             Through imaginary and surreal landscapes a brother & sister must find their way home
           </p>
@@ -148,7 +149,7 @@
         </div>
 
       </div>
-      <div class="boxx">
+      <div class="videobox">
         <video class="videores" controls>
           <source src="assets/images/video.mp4#t=01,12" type="video/mp4">
         </video>
@@ -158,10 +159,11 @@
     </div>
   </section>
 
+
   <section id="characters" class="section is-small">
     <div class="container">
       <h2 class="header has-text-dark is-uppercase">our heroes</h2>
-      <div class="sectionteaser">
+      <div class="herosection">
         <div class="leftimg">
           <p class="has-text-dark"><strong>Ann</strong> may look cute on the outside but she sure knows how to wreck havock on her brother, she's very creative & can be impulsive at times</p>
         </div>
@@ -169,8 +171,7 @@
           <img class="img" src="assets/images/sis.png" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1500" data-aos-easing="ease-out-sine" />
         </div>
       </div>
-
-      <div class="sectionteaser">
+      <div class="herosection">
         <div class="brother">
           <img class="img" src="assets/images/bro.png" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1500" data-aos-easing="ease-out-sine" />
         </div>
@@ -182,22 +183,22 @@
     </div>
   </section>
 
-    <section id="about" class="section has-background-blueish is-small">
+  <section id="about" class="section has-background-blueish is-small">
     <div class="container">
       <h2 class="header has-text-light is-uppercase">Who are we?</h2>
-      <div class="sectionteaser">
+      <div class="herosection">
         <div class="leftimg">
           <p class="has-text-light"><strong>Happy Juice</strong> is a newly-formed studio based in Tel Aviv, focusing on quests and adventure games with high quality of graphics, animation and game design.</p>
         </div>
-        <div class="sectiontext">
-          <img class="picenter" src="assets/images/logo_happy.png" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200" data-aos-easing="ease-out-sine" />
+        <div class="picenter">
+          <img src="assets/images/logo_happy.png" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200" data-aos-easing="ease-out-sine" />
         </div>
       </div>
     </div>
   </section>
 
   <section>
-      <img src="assets/images/field.jpg" class="bedtime">
+    <img src="assets/images/field.jpg" class="bedtime">
   </section>
 
   <section id="gallery" class="section is-transparent is-small">
@@ -213,16 +214,16 @@
           <img class="img" src="assets/images/gallery_2.png" />
         </div>
         <!-- item -->
-        <div class="flow" data-src="assets/images/gallery_3.png" >
+        <div class="flow" data-src="assets/images/gallery_3.png">
           <img class="img" src="assets/images/gallery_3.png" />
         </div>
         <!-- item -->
-        <div class="flow" data-src="assets/images/gallery_4.png" >
+        <div class="flow" data-src="assets/images/gallery_4.png">
           <img class="img" src="assets/images/gallery_4.png" />
         </div>
         <!-- item -->
-        	    <!-- item -->
-        <div class="flow" data-src="assets/images/sea.jpg" >
+        <!-- item -->
+        <div class="flow" data-src="assets/images/sea.jpg">
           <img class="img" src="assets/images/sea.jpg" />
         </div>
       </div><!-- end lightgallery -->
@@ -232,32 +233,32 @@
 
   <section id="faq" class="section is-transparent is-small">
     <div class="container">
-    	    <h2 class="header has-text-dark is-uppercase">faq</h2>
-<ul class="accordion">
-	<li>
-		<a>When will you release it?</a>
-		<p>Subscribe to our Facebook's page to be notified</p>
-	</li>
-	<li>
-		<a>Where can I buy this game?</a>
-		<p>We plan to release the game on: Nintendo Switch, Steam, Google Play & App Store</p>
-		</li>
-	<li>
-		<a>Is this the official website?</a>
-		<p>No, but I hope it'll be...In the meantime check out https://www.happyjuice.games</p>
-		</li>
-		<li>
-		<a>Did you released other games?</a>
-		<p>In a matter of fact we did, we cooperated with 11sheep on The Office Quest game</p>
-		</li>
-</ul>
-</div>
-</section>
+      <h2 class="header has-text-dark is-uppercase">faq</h2>
+      <ul class="accordion">
+        <li>
+          <a>When will you release it?</a>
+          <p>Subscribe to our Facebook's page to be notified</p>
+        </li>
+        <li>
+          <a>Where can I buy this game?</a>
+          <p>We plan to release the game on: Nintendo Switch, Steam, Google Play & App Store</p>
+        </li>
+        <li>
+          <a>Is this the official website?</a>
+          <p>No, but I hope it'll be...In the meantime check out https://www.happyjuice.games</p>
+        </li>
+        <li>
+          <a>Did you released other games?</a>
+          <p>In a matter of fact we did, we cooperated with 11sheep on The Office Quest game</p>
+        </li>
+      </ul>
+    </div>
+  </section>
 
   <section id="testimonials">
     <div class="section is-small has-background-darkblue">
       <div class="container">
-<h2 class="header has-text-light is-uppercase">Dream team</h2>
+        <h2 class="header has-text-light is-uppercase">Dream team</h2>
 
 
         <div class="glide__wrapper">
@@ -321,20 +322,60 @@
     </div>
   </section>
 
-  <section>
-      <img src="assets/images/bedtime.jpg" class="bedtime">
-  </section>
 
-
-  <footer id="footer">
+  <footer id="footer" class="section">
     <section>
       <div class="section has-background-dark">
         <div class="container is-center">
+          <div class="footer_grid">
 
-          <div class="frogtext">
-            <img src="assets/images/frog.png" alt="" class="footerimg">
-            <h6 class="has-text-credit">All artworks reserved to HappyJuice ©2020</h6>
-            	<h6><a href="https://ajerbi.com/" target="_blank" class="has-text-credit">Website ❤️ Amos Jerbi</a></h6>
+
+            <!-- <img src="assets/images/frog.png" alt="" class="footerimg"> -->
+
+            <div class="footer_logo">
+              <img src="assets/images/logo_happy.png">
+            </div>
+
+            <div class="footer_links_col1">
+              <h6>Useful Links</h6>
+              <ul>
+                <li><a href="index.html#about" class="navbar-item">About</a></li>
+                <li><a href="index.html#gallery" class="navbar-item">Gallery</a></li>
+                <li><a href="index.html#testimonials" class="navbar-item">Our Team</a></li>
+                <li><a href="https://www.haaretz.co.il/captain/games/.premium-1.8468007" target="_blank" class="navbar-item">Haaretz Article</a></li>
+              </ul>
+            </div>
+
+            <div class="footer_links_col2">
+              <h6>company</h6>
+              <ul>
+                <li><a href="index.html#about" class="navbar-item">About</a></li>
+                <li><a href="index.html#gallery" class="navbar-item">Gallery</a></li>
+                <li><a href="index.html#testimonials" class="navbar-item">Our Team</a></li>
+                <li><a href="https://www.haaretz.co.il/captain/games/.premium-1.8468007" target="_blank" class="navbar-item">Haaretz Article</a></li>
+              </ul>
+            </div>
+
+            <div class="footer_links_col3">
+              <h6>Let's Talk</h6>
+              <ul>
+                <li><a href="index.html#about" class="navbar-item">About</a></li>
+                <li><a href="index.html#gallery" class="navbar-item">Gallery</a></li>
+                <li><a href="index.html#testimonials" class="navbar-item">Our Team</a></li>
+                <li><a href="https://www.haaretz.co.il/captain/games/.premium-1.8468007" target="_blank" class="navbar-item">Haaretz Article</a></li>
+              </ul>
+            </div>
+
+            <div class="footer_social">
+              <a href="https://www.linkedin.com/in/amosjerbi/" target="_blank" class="contact-icon"><i class="fa fa fa-linkedin"></i></a>
+              <a href="https://instagram.com/amosjerbi" target="_blank" class="contact-icon"><i class="fa fa fa-instagram"></i></a>
+              <a href="https://www.facebook.com/happy.juice.games/" target="_blank" class="contact-icon"><i class="fa fa-facebook"></i></a>
+            </div>
+
+            <div class="footer_legals">
+              <h6 class="has-text-credit"><a href="https://ajerbi.com/" target="_blank" class="has-text-credit">Website Made with ❤️ by Amos Jerbi</a>  |  All artworks reserved to HappyJuice ©2020</h6>
+            </div>
+
           </div>
         </div>
       </div>
@@ -346,33 +387,32 @@
   <script src="assets/css/glide.js"></script>
   <script src="assets/css/aos.js"></script>
   <script src="assets/css/main.js"></script>
-  <script src="assets/css/toggle.js"></script>
   <script src="assets/css/lightgallery.js"></script>
   <script>
     lightGallery(document.getElementById('lightgallery'));
   </script>
-  
+
   <script>
-  (function($) {
-  
-    $('.accordion a').click(function(j) {
+    (function($) {
+
+      $('.accordion a').click(function(j) {
         var dropDown = $(this).closest('li').find('p');
 
         $(this).closest('.accordion').find('p').not(dropDown).slideUp();
 
         if ($(this).hasClass('active')) {
-            $(this).removeClass('active');
+          $(this).removeClass('active');
         } else {
-            $(this).closest('.accordion').find('a.active').removeClass('active');
-            $(this).addClass('active');
+          $(this).closest('.accordion').find('a.active').removeClass('active');
+          $(this).addClass('active');
         }
 
         dropDown.stop(false, true).slideToggle();
 
         j.preventDefault();
-    });
-})(jQuery);
-    </script>
+      });
+    })(jQuery);
+  </script>
 </body>
 
 </html>
