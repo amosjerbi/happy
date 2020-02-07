@@ -1,13 +1,12 @@
-
-   $(document).ready(function(){
-      $(window).scroll(function() { // check if scroll event happened
-        if ($(document).scrollTop() > 100) { // check if user scrolled more than 50 from top of the browser window
-          $(".navbar").css("background-color", "#0b0e2d90"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
-        } else {
-          $(".navbar").css("background-color", "transparent"); // if not, change it back to transparent
-        }
-      });
-    });
+$(document).ready(function() {
+  $(window).scroll(function() { // check if scroll event happened
+    if ($(document).scrollTop() > 80) { // check if user scrolled more than 50 from top of the browser window
+      $(".navbar").css("background-color", "#0b0e2d"); // if yes, then change the color of class "navbar-fixed-top" to white (#0b0e2d90)
+    } else {
+      $(".navbar").css("background-color", "transparent"); // if not, change it back to transparent
+    }
+  });
+});
 
 
 // burger menu mobile //
