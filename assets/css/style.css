@@ -1209,14 +1209,15 @@ li.fade {
 .brother {
   grid-column: 8/12;
   grid-row: 1;
-  /* width: 70%; */
+  width: 56%;
   /* display: grid; */
+  align-self: center;
 }
 
 .sister {
   grid-column: 3/12;
   grid-row: 1;
-  width: 30%;
+  width: 25%;
 }
 
 .rightimg {
@@ -1614,6 +1615,11 @@ a.active:after {
   transition: all .2s;
 }
 
+.badge-item img {
+  width: 60%;
+  padding: 1rem 0 2px 0;
+}
+
 /* =======================================
    Media Queries
  ======================================== */
@@ -1793,6 +1799,11 @@ a.active:after {
     grid-row: 6;
     padding: 0 0 0 1rem;
   }
+
+  .badge-item img {
+    width: 35%;
+    padding: 1rem 0 2px 0;
+  }
 }
 
 @media screen and (min-width:500px) and (max-width:850px) {
@@ -1828,12 +1839,17 @@ a.active:after {
   }
 
   .footer_social {
-    grid-column: 1;
+    grid-column: 1/3;
     grid-row: 3;
   }
 
   .footer_legals {
-    grid-column: 1;
+    grid-column: 1/4;
     grid-row: 4;
+  }
+
+  .badge-item img {
+    width: 40%;
+    padding: 1rem 0 2px 0;
   }
 }
