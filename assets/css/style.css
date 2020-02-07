@@ -1721,6 +1721,7 @@ a.active:after {
     justify-self: center;
     width: 80%;
     padding: 0 0 1rem 0;
+    display: none;
   }
 
   .timelinebox {
