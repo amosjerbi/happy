@@ -1243,6 +1243,18 @@ li.fade {
   padding: 0 0 0 3rem;
 }
 
+.col_left {
+  grid-column: 1/5;
+  grid-row: 1;
+  align-self: center;
+}
+
+.col_right {
+  grid-column: 6/13;
+  grid-row: 1;
+  align-self: center;
+}
+
 /* =======================================
    Gallery & Faq
  ======================================== */
@@ -1254,6 +1266,11 @@ li.fade {
     display: grid;
   }
 }
+
+.frogimage{
+	width: 25%;
+	padding: 2rem 0 0 0;
+	}
 
 .accordion {
   max-width: 100%;
@@ -1645,9 +1662,9 @@ a.active:after {
   .container {
     width: 93%;
   }
-
+  
   .accordion {
-    max-width: 75%;
+    max-width: 85%;
   }
 }
 
@@ -1729,6 +1746,21 @@ a.active:after {
     padding: 0 0 1rem 0;
     display: none;
   }
+  
+  .col_left {
+  grid-column: 1/12;
+  grid-row: 1;
+  align-self: center;
+  Padding: 0 0 2rem 0;
+}
+
+.col_right {
+  grid-column: 1/12;
+  grid-row: 2;
+  align-self: center;
+}
+
+
 
   .timelinebox {
     padding: 4px;
